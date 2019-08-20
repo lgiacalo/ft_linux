@@ -21,3 +21,8 @@
 ## Fichiers utiles
 	- /etc/fstab
 	- /etc/mtab
+
+
+## Error 
+	- bug paquets: lfs-boot.... md5sum faux size 32 au lieu de 33
+
