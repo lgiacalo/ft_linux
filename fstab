@@ -20,3 +20,19 @@ UUID=da6b6a4c-4244-438c-83a3-d5a84fbfde9a none            swap    sw            
 # swap was on /dev/sdb5 during installation
 UUID=d360790e-ec5b-42f9-a7ff-9f2a2740ebc3	none	swap	sw	0	0
 
+
+
+#################################### /DEV/SDB ############################################
+## UUID :
+# /dev/sdb1: UUID="daa19f30-f16a-44b5-a554-5ae240e9119c" TYPE="ext4" PARTUUID="1d2a920c-01"
+# /dev/sdb5: UUID="9200917b-d0a6-4fb8-9b67-507972df302f" TYPE="swap" PARTUUID="1d2a920c-05"
+
+# / was on /dev/sdb1 during installation
+UUID=daa19f30-f16a-44b5-a554-5ae240e9119c	/mnt/lfs	ext4	defaults	11
+
+# swap was on /dev/sdb5 during installation
+UUID=9200917b-d0a6-4fb8-9b67-507972df302f	none	swap	sw	0	0
+
+## INFOS
+# https://debian-facile.org/doc:systeme:fstab
+
